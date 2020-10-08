@@ -1,0 +1,26 @@
+<?xml version = "1.0"?>
+<class>
+   <product id = "101">
+      <name>Sport Shoe</name>
+      <price>1800</price>
+      <product_categories>1</product_categories>
+   </product>
+
+   <product id = "102">
+      <name>V-Neck T-shirt</name>
+      <price>900</price>
+      <product_categories>2</product_categories>
+   </product>
+
+   <product id = "103">
+      <name>Gaming Bag</name>
+      <price>800</price>
+      <product_categories>3</product_categories>
+   </product>
+
+   <product id = "104">
+      <name>Trekking Shoe</name>
+      <price>700</price>
+      <product_categories>1</product_categories>
+   </product>
+</class>
