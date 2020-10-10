@@ -8,29 +8,39 @@ import java.sql.SQLException;
 
 public class LoginDao {
 	
-	String sql="select * from CustomerLogin where customer_username=? and customer_password=?";
+
+	PreparedStatement pst=null;
+	ResultSet rs=null;
 	
-	String url="jdbc:mysql://localhost:3306/CustomerLogin";
+	DBConnection con=new DBConnection();
+	
+
 	
 	public boolean check(String customer_username,String customer_password)
 	{
-		try {
-			Class.forName("org.apache.derby.jdbc.ClientDriver");
-			Connection con=DriverManager.getConnection(url);
-			PreparedStatement st=con.prepareStatement(sql);
+		
+		
+		try{
+
+			PreparedStatement pst=con.getPreparedStatement("select * from CustomerLogin where customer_username=? and customer_password=?");
 			
-			st.setString(1, customer_username);
-			st.setString(2, customer_password);
+			pst.setString(1, customer_username);
+			pst.setString(2, customer_password);
 			
-			ResultSet rs=st.executeQuery();
+			ResultSet rs=pst.executeQuery();
 			if(rs.next())
 			{
 				return true;
 			}
 			
+			rs.close();
+			rs=null;
+			pst.close();
+			pst=null;
+			con=null;
 			
-		} catch (ClassNotFoundException | SQLException e) {
-			// TODO Auto-generated catch block
+			
+		} catch(SQLException e){
 			e.printStackTrace();
 		}
 		return false;
