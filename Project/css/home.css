@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    background-origin: border-box;
+    font-family: sans-serif ;
+}
+
+#left{
+    width:70%;
+    height:100vh;
+    background-color: #c1c1c1;
+}
+
+#right{
+    width:30%;
+    height:100vh;
+    background-color: rgb(169, 207, 0);
+    position: absolute;
+    top:0;
+    right:0;
+}
