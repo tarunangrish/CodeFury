@@ -37,6 +37,7 @@ public class ListServlet extends HttpServlet {
  
             RequestDispatcher dispatcher = request.getRequestDispatcher("index1.jsp");
             dispatcher.forward(request, response);
+            response.sendRedirect("QuoteServlet");
  
         } catch (SQLException e) {
             e.printStackTrace();
