@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+html,
+body {
+  height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ffff;
+  }
+
+  .beaut{
+      width:80%;
+      padding : 80px;
+      margin : auto
+  }
+
+  .heading-adjust{
+align-items: none;
+  }
