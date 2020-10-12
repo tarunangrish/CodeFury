@@ -6,13 +6,13 @@
 <title>Customer Order Management Page</title>
 <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link href="./css/order-manangement-customer.css" rel="stylesheet">
 </head>
+
+
 <body>
     <nav class="navbar navbar-expand fixed-top navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Team Radiant</a>
@@ -49,6 +49,7 @@
                         <th>Shipping Cost</th>
                         <th>Order Value</th>						
                         <th>Status</th>						
+                        <th>Show Invoice</th>
                         <th>Order Details</th>
                     </tr>
                 </thead>
@@ -59,7 +60,21 @@
                         <td>$254</td>
                         <td>$254</td>
                         <td><span class="status text-success">&bull;</span> Delivered</td>
-                        <td><a href="#" class="view" title="View Details" data-toggle="tooltip"><i class="material-icons">&#xE5C8;</i></a></td>
+                        <td><button type="button" class="btn btn-default btn-primary btn-block" aria-label="Left Align">Show Invoice
+                            </button></td>
+                        <td><button type="button" class="btn btn-success btn-block" aria-label="Left Align">Approve
+                            </button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Jun 15, 2017</td>                        
+                        <td>$254</td>
+                        <td>$254</td>
+                        <td><span class="status text-danger">&bull;</span> Expired</td>
+                        <td><button type="button" class="btn btn-default btn-primary btn-block" aria-label="Left Align">Show Invoice
+                        </button></td>
+                    <td><button type="button" class="btn btn-success btn-block" aria-label="Left Align">Approve
+                        </button></td>
                     </tr>
                     <tr>
                         <td>1</td>
@@ -67,23 +82,10 @@
                         <td>$254</td>
                         <td>$254</td>
                         <td>Delivered</td>
-                        <td><a href="#" class="view" title="View Details" data-toggle="tooltip"><i class="material-icons">&#xE5C8;</i></a></td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Jun 15, 2017</td>                        
-                        <td>$254</td>
-                        <td>$254</td>
-                        <td>Delivered</td>
-                        <td><a href="#" class="view" title="View Details" data-toggle="tooltip"><i class="material-icons">&#xE5C8;</i></a></td>                        
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Jun 15, 2017</td>                        
-                        <td>$254</td>
-                        <td>$254</td>
-                        <td> Delivered</td>
-                        <td><a href="#" class="view" title="View Details" data-toggle="tooltip"><i class="material-icons">&#xE5C8;</i></a></td>
+                        <td><button type="button" class="btn btn-default btn-primary btn-block" aria-label="Left Align">Show Invoice
+                        </button></td>
+                    <td><button type="button" class="btn btn-success btn-block" aria-label="Left Align">Approve
+                        </button></td>
                     </tr>
                     <tr>
                         <td>1</td>
@@ -91,7 +93,21 @@
                         <td>$254</td>
                         <td>$254</td>
                         <td> Delivered</td>
-                        <td><a href="#" class="view" title="View Details" data-toggle="tooltip"><i class="material-icons">&#xE5C8;</i></a></td>
+                        <td><button type="button" class="btn btn-default btn-primary btn-block" aria-label="Left Align">Show Invoice
+                        </button></td>
+                    <td><button type="button" class="btn btn-success btn-block" aria-label="Left Align">Approve
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Jun 15, 2017</td>                        
+                        <td>$254</td>
+                        <td>$254</td>
+                        <td> Delivered</td>
+                        <td><button type="button" class="btn btn-default btn-primary btn-block" aria-label="Left Align">Show Invoice
+                        </button></td>
+                    <td><button type="button" class="btn btn-success btn-block" aria-label="Left Align">Approve
+                        </button></td>
                     </tr>
                     <tr>
                         <td>1</td>
