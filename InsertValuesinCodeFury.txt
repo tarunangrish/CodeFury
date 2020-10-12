@@ -1,0 +1,79 @@
+#Customer Table
+insert into customer values(1,'Gaurav',NULL,'Aneja',20,'Maharaja Colony','Patiala','Punjab',147001,'gaurav12@gmail.com');
+insert into customer values(2,'Richa',NULL,'Kathuria',20,'RD Colony','Ludhiana','Punjab',147002,'richa123@gmail.com');
+insert into customer values(3,'Varun',NULL,'Arora',30,'New FC Complex','Bangalore','Karnataka',147004,'varun56@gmail.com');
+insert into customer values(4,'Rakesh','Kumar','Batra',30,'Maharaja Colony','Patiala','Punjab',147001,'rakeshkumar45@gmail.com');
+insert into customer values(5,'Divesh',NULL,'Kapoor',70,'Urban Estate','Mohali','Punjab',147006,'diveshkapoor56@gmail.com');
+
+#Company Table
+insert into company values(1,'ABC',34,'Madhya Pradesh','Factory Area Phase 1','Bhopal',456789,'TUIGF56RT');
+insert into company values(2,'BGF',45,'Punjab','Factory Area Phase 3','Ludhiana',567432,'CVDET676RT');
+insert into company values(3,'UIJ',56,'Karnataka','GH Complex 1','Bangalore',537297,'HFDTU976QQP');
+insert into company values(4,'DFT',43,'Madhya Pradesh','Factory Area Phase 9','Bhopal',456789,'GHRTE459OP');
+insert into company values(5,'OPU',23,'Haryana','Factory Area Phase 6','Gurgaon',476543,'YURFGR567');
+
+#Employee Table
+insert into employee values(1,'GHF','YUT','TRE',2);
+insert into employee values(2,'UYT','YUT','RED',1);
+insert into employee values(3,'RIU','YUT','HGF',5);
+insert into employee values(4,'FGD','YUT','BNV',4);
+insert into employee values(5,'GYT','YUT','FGd',3);
+
+#Order1 table
+insert into order1 values(1,'2020-07-12',1,1,7600.83,100.0,'Vibrant','pending');
+insert into order1 values(2,'2020-07-13',2,2,4500.83,100.0,'FastTrack','pending');
+insert into order1 values(3,'2020-07-14',3,3,7800.83,167.0,'Freeland','pending');
+insert into order1 values(4,'2020-07-15',4,4,4500.83,123.0,'Vibrant','pending');
+insert into order1 values(5,'2020-07-16',5,5,3200.83,145.0,'Vibrant','pending');
+
+#Invoice Table
+insert into invoice values(1,'2020-07-13',1,'Same State',1100.0,45600.0,'Paid');
+insert into invoice values(2,'2020-07-14',2,'Same State',1000.0,34500.0,'Paid');
+insert into invoice values(3,'2020-07-15',3,'Same State',1800.0,35400.0,'Unpaid');
+insert into invoice values(4,'2020-07-16',4,'Inter State',1100.0,39400.0,'Paid');
+insert into invoice values(5,'2020-07-17',5,'Inter State',1200.0,23500.0,'Unpaid');
+
+#Employee_Login Table
+insert into employee_login values(1,'fireice@12','tfhfbje89','2020-09-12','12:23:00');
+insert into employee_login values(2,'abc@12','tfhf78689','2020-09-13','16:21:00');
+insert into employee_login values(3,'mastertt@12','yuer56e89','2020-09-14','13:12:00');
+insert into employee_login values(4,'freeland@12','9875ghe89','2020-09-15','21:23:00');
+insert into employee_login values(5,'trewq@12','68rtjje89','2020-09-16','19:23:00');
+
+#Customer_Login Table
+insert into customer_login values(1,'polygon12','yurte56','2020-09-12','11:09:00');
+insert into customer_login values(1,'mystery12','98yu56','2020-09-13','15:09:00');
+insert into customer_login values(1,'zombie_edge12','beautiful','2020-09-14','11:05:00');
+insert into customer_login values(1,'panda_claus12','responsive12','2020-09-15','11:09:00');
+insert into customer_login values(1,'parv@12','ty34po','2020-09-15','11:09:00');
+
+#Product table
+insert into product values(1,1,'Shampoo',345.0,1);
+insert into product values(2,1,'Hand Wash',120.0,1);
+insert into product values(3,2,'Mobile',14000.0,3);
+insert into product values(4,2,'HeadPhones',3405.0,2);
+insert into product values(5,4,'Snacks',35.0,1);
+
+#Order_Product Table
+ insert into order_product values(1,1,2);
+ insert into order_product values(2,2,1);
+ insert into order_product values(3,4,3);
+ insert into order_product values(4,3,1);
+ insert into order_product values(5,5,3);
+
+#Company_Customer
+insert into company_customer values(1,1);
+insert into company_customer values(2,2);
+insert into company_customer values(3,4);
+insert into company_customer values(4,3);
+insert into company_customer values(4,2);
+insert into company_customer values(5,5);
+
+#Customer_Phone
+insert into customer_phone values(1,'9876543210');
+insert into customer_phone values(2,'9823443218');
+insert into customer_phone values(3,'9876123219');
+insert into customer_phone values(4,'3476543216');
+insert into customer_phone values(5,'9876543215');
+insert into customer_phone values(1,'8876543216');
+
